@@ -32,36 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit-agent">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit-agent.exe</HintPath>
-    </Reference>
-    <Reference Include="nunit-agent-x86">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit-agent-x86.exe</HintPath>
-    </Reference>
-    <Reference Include="nunit-console">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit-console.exe</HintPath>
-    </Reference>
-    <Reference Include="nunit-console-runner">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit-console-runner.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit-console-x86">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit-console-x86.exe</HintPath>
-    </Reference>
-    <Reference Include="nunit-editor">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit-editor.exe</HintPath>
-    </Reference>
-    <Reference Include="nunit.core">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit.core.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.core.interfaces">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit.core.interfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.util">
-      <HintPath>..\packages\Wonga.NUnit.2.6.0.12051\lib\net40\nunit.util.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.0.12054\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -75,10 +48,10 @@
     <Compile Include="TargetTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="runopencover.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="packages.config" />
     <None Include="runtests.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
