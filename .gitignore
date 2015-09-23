@@ -63,6 +63,5 @@ _ConversionReport_Files/
 _temp
 _NCrunch*
 *.sln.DotSettings
-*NuGet.exe
 packages/
 src/.output
